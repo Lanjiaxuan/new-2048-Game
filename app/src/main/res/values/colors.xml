@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btnColor">#d2e1f0</color>
+
+    <color name="backgroundColorFor2048">#EBF5FB</color>
+    <color name="textColorFor2048">#17202A</color>
+    <color name="backgroundColorFor1024">#D6EAF8</color>
+    <color name="textColorFor1024">#17202A</color>
+    <color name="backgroundColorFor512">#AED6F1</color>
+    <color name="textColorFor512">#17202A</color>
+    <color name="backgroundColorFor256">#85C1E9</color>
+    <color name="textColorFor256">#f9f6f2</color>
+    <color name="backgroundColorFor128">#5DADE2</color>
+    <color name="textColorFor128">#f9f6f2</color>
+    <color name="backgroundColorFor64">#3498DB</color>
+    <color name="textColorFor64">#f9f6f2</color>
+    <color name="backgroundColorFor32">#2E86C1</color>
+    <color name="textColorFor32">#f9f6f2</color>
+    <color name="backgroundColorFor16">#2874A6</color>
+    <color name="textColorFor16">#f9f6f2</color>
+    <color name="backgroundColorFor8">#21618C</color>
+    <color name="textColorFor8">#f9f6f2</color>
+    <color name="backgroundColorFor4">#1B4F72</color>
+    <color name="textColorFor4">#f9f6f2</color>
+    <color name="backgroundColorFor2">#154360</color>
+    <color name="textColorFor2">#f9f6f2</color>
+    <color name="backgroundColorForsuper">#3c3a32</color>
+    <color name="textColorForsuper">#f9f6f2</color>
+</resources>

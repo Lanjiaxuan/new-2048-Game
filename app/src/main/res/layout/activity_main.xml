@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:ignore="MergeRootFrame">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:background="#ffffff"
+            android:layout_weight="2"
+            android:text="New 2048"
+            android:textColor="#000000"
+            android:textSize="79sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <TextView
+            android:id="@+id/HighestScore"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+
+            android:text="Highest Score : "
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="42dp"
+            android:background="#ffffff"
+            android:text="Score :"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="true"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:text="Join the numbers and get to the "
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="138dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:fontFamily="cursive"
+            android:text="2 tile!"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="Restart"
+            android:textColor="#e1720b"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="#ffffff"
+            android:text="Undo"
+            android:textColor="#e1720b"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+    <com.example.finalproject.GameView
+        android:id="@+id/gameView"
+        android:layout_width="433dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+
+        android:addStatesFromChildren="true"
+        android:alignmentMode="alignMargins"
+        android:visibility="visible">
+
+    </com.example.finalproject.GameView>
+
+</LinearLayout>
